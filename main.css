@@ -1,0 +1,120 @@
+/* logo */
+h1, h2{
+    text-shadow: red 2px -1px;
+    z-index: 0;
+}
+
+.Logo{
+    width: 100%;
+    height: 300px;
+    z-index: -1;
+}
+/* main section --------------------------------------------- */
+body{
+    font-size: 67.5%;
+    font-family: tahoma, Geneva, sans-serif;
+    background: red url(assets/images.jpg) center 0px;
+    padding: 0;
+    margin: 0;
+}
+
+
+section div.panel{
+    float: left;
+    position: relative;
+    width: 350px;
+    margin: 20px;
+    padding: 3.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+button{
+    color: #c64322;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid #000000;
+    text-transform: uppercase;
+}
+button:hover{
+    color: white;
+    background-color: #000000;
+    border: 1px solid #000000;
+}
+/* Nav Bars -------------------------------------------------------- */
+nav {
+    color: #000;
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+
+nav ul{
+    margin:2px;
+    padding: 0;
+    list-style: none;
+} 
+nav li{
+    display: inline-block;
+    margin: 0;
+}
+nav li a, nav li a:visited{
+    text-decoration: none;
+    color: red;
+    text-shadow: black 1px -1px;
+}
+nav li a:hover{
+    color: white;
+    background-color: black;
+}
+
+nav#login-Bar{
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: rgba(64, 54, 47, 0.8);
+    height: 1.3em;
+}
+nav#login-Bar li{
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+
+/* footer -------------------------------------------------- */
+footer{
+    height: 25px;
+    font-size: 1.2em;
+    color: red;
+    text-align: center;
+    padding: 1.5em 3.0em;
+}
+footer ul#menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0.7 0 0;
+    padding: 0;
+}
+footer ul li::before{
+    content: "|";
+    padding: 0.7em;
+}
+footer a, footer a:visited{
+    color: red;
+    text-decoration: none;
+}
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
